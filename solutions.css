@@ -62,3 +62,13 @@
     filter: brightness(150%) hue-rotate(90deg);
     border-radius: 20px;
 }
+
+.ex-9-img{
+    transition: all 3s;
+}
+
+.ex-9-img:hover{
+    filter: brightness(150%) hue-rotate(90deg);
+    border-radius: 20px;
+    transform: scale(1.4);
+}
