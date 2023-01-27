@@ -51,5 +51,14 @@
 }
 
 .ex-7-img:hover{
-    filter: brightness(60%) sepia(1)
+    filter: brightness(60%) sepia(1);
+}
+
+.ex-8-img{
+    transition: all 3s;
+}
+
+.ex-8-img:hover{
+    filter: brightness(150%) hue-rotate(90deg);
+    border-radius: 20px;
 }
