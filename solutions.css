@@ -42,10 +42,14 @@
     transform: scale(0.5);
 }
 
-.ex-6-img{
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+.ex-7-img{
     transition: filter 3s;
 }
 
-.ex-6-img:hover{
-    filter: grayscale(1);
+.ex-7-img:hover{
+    filter: brightness(60%) sepia(1)
 }
